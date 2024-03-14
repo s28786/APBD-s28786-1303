@@ -1,12 +1,12 @@
 ﻿static int AvgCalc(int[] array)
 {
-    int avg = 0;
+    int avgNew = 0;
     for (int i = 0; i < array.Length; i++)
     {
-        avg += array[i];
+        avgNew += array[i];
     }
-    avg /= array.Length;
-    return avg;
+    avgNew /= array.Length;
+    return avgNew;
 }
 
 static int MaxVal(int[] array)
